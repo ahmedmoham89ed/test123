@@ -1,0 +1,58 @@
+import React from 'react'
+import blog from "../assests/choose-man.png"
+import blog1 from "../assests/l-food.png"
+import blog2 from "../assests/f-food.png"
+import blog3 from "../assests/t-food.png"
+
+const Nature = () => {
+  return (
+    <div className='nasr'>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-6 mt-32">
+                <div className="nasret">
+                    <img src={blog} alt="" className='blog' />
+                    <div className="cora">
+                      <img src={blog1} alt=""  className='you1'/>
+                      <img src={blog2} alt=""  className="you2"/>
+                      <img src={blog3} alt=""  className="you3"/>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-6">
+             <div className="flex flex-col gap-4 mt-40">
+                  <p style={{fontFamily:'"Mali", cursive',}} className='text-xl text-grelight'>Why Chose Us</p>
+                  <h1 className='text-5xl leading-tight text-greenn'>Bringing nature's bounty to your plate</h1>
+                  <p className='text-lg text-zinc-500 '>Agriculture and farming are essential industries that involve the cultivation of crops, raising of livestock, and production</p>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex gap-44 text-2xl text-greenn">
+                        <p>Pure And Organic</p>
+                        <p>70%</p>
+                    </div>
+                    <div className="">
+                        <div style={{height:"8px"}} class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style={{width: "70%",backgroundColor:"#fdd61f"}}></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex gap-72 text-2xl text-greenn">
+                        <p>Healthy Food</p>
+                        <p>80%</p>
+                    </div>
+                    <div className="">
+                        <div class="progress" style={{height:"8px"}} role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style={{width: "80%",backgroundColor:"#fdd61f"}}></div>
+                        </div>
+                    </div>
+                  </div>
+                  <p style={{fontFamily:' "Ubuntu", sans-serif'}} className='w-44 h-16 rounded-full bg-[#fdd61f] text-lg flex items-center capitalize text-greenn justify-center cursor-pointer mt-2 hover:bg-grelight duration-500 hover:text-white '>Read More</p>
+             </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Nature

@@ -1,0 +1,68 @@
+import React from 'react'
+import logo from "../assests/logo (1).png"
+import { Link } from 'react-router-dom'
+const Navbar = () => {
+  return (
+    <div className='bg-greenn w-[100%] h-[12vh] sticky top-0 flex items-center justify-around z-50'>
+      <div className="">
+        <img src={logo} alt="" />
+      </div>
+      <div className="flex gap-4 items-center text-white text-lg">
+          <Link to="/" className='hover:text-grelight duration-300 hover:-translate-y-1 '>Home</Link>
+          <Link to="/About" className='hover:text-grelight duration-300 hover:-translate-y-1 '>About Us</Link>
+          <Link to="/Services" className='hover:text-grelight duration-300 hover:-translate-y-1 '>
+             <div class="dropdown">
+                <a class="flex gap-1 items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <span> Services</span>
+                   <i class="fa-solid fa-chevron-down fa-xs"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><Link class="dropdown-item" to="/Services">Services</Link></li>
+                    <li><Link class="dropdown-item" to="/DetailsOfServices">Services Details</Link></li>
+                </ul>
+             </div>  
+          </Link>
+          <Link to="/Gallery" className='hover:text-grelight duration-300 hover:-translate-y-1 '>
+            <div class="dropdown">
+                    <a class="flex gap-1 items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span>Gallery</span>
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><Link class="dropdown-item" to="/Gallery">Gallery</Link></li>
+                        <li><Link class="dropdown-item" to="/GalleryDetails">Gallery Details</Link></li>
+                    </ul>
+                </div>
+          </Link>
+          <Link to="/Blog" className='hover:text-grelight duration-300 hover:-translate-y-1 '>
+            <div class="dropdown">
+                    <a class="flex gap-1 items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       <span>Blog</span>
+                       <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><Link class="dropdown-item" to="/Blog">Blog</Link></li>
+                        <li><Link class="dropdown-item" to="/BlogDetails">Blog Details</Link></li>
+                    </ul>
+                </div>
+          </Link>
+          <Link to="/Product" className='hover:text-grelight duration-300 hover:-translate-y-1 '>
+            <div class="dropdown">
+                    <a className='flex gap-1 items-center' href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Product</span>
+                            <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Product</a></li>
+                        <li><a class="dropdown-item" href="#">Product Details</a></li>
+                    </ul>
+                </div>
+          </Link>
+          <Link to="/Contact" className='hover:text-grelight duration-300 hover:-translate-y-1 '>Contact</Link>
+          <Link to="/Contact" className='flex items-center bg-grelight px-4 py-3 rounded-2xl ml-14 text-md font-light duration-500 hover:bg-yel hover:text-grelight' >Get A Quote<i class="fa-solid fa-chevron-right fa-xs pl-2"></i></Link>
+      </div>
+    </div>
+  )
+}
+
+export default Navbar
