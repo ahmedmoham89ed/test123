@@ -1,0 +1,124 @@
+import React from 'react'
+import blog from "../assests/testimonial.png"
+import quote from "../assests/quote-left.svg"
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/react-splide/css/sea-green';
+import re1 from "../assests/re1.png"
+const Seed = () => {
+  return (
+    <div className='mt-32'>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-4 ">
+                <img src={blog} alt="" />
+            </div>
+            <div className="col-lg-8">
+              <div className="mt-5 mb-28">
+                <Splide aria-label="My Favorite Images" options={ {rewind: true,width:800,gap:'1rem',autoplay: true,type:'loop',height:'21rem',interval:"1500",speed:"1000"} }>
+                        <SplideSlide>
+                            <div className="bg-zinc-100" style={{borderRadius:"14px" ,padding:"35px"}}>
+                                <div className="flex justify-between ">
+                                    <img src={quote} alt="" />
+                                    <div className="flex gap-2 text-xl mr-5">
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#ededed"}}></i></p>
+                                    </div>
+                                </div>
+                                <p className='text-xl mt-4'>Agriculture and farming are essential industries that involve the cultivation of crops, raising of livestock, and production a of food and other agricultural products Agriculture farming are essential industries involve cultivation</p>
+                                <div className="flex gap-4 mt-3">
+                                    <div className="">
+                                        <img src={re1} alt="" className='rounded-xl' />
+                                    </div>
+                                    <div className="">
+                                        <h1 className='text-2xl text-greenn'>Haney Cooper</h1>
+                                        <p className='text-lg text-zinc-500'>Ceo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div className="bg-zinc-100" style={{borderRadius:"14px" ,padding:"35px"}}>
+                                <div className="flex justify-between ">
+                                    <img src={quote} alt="" />
+                                    <div className="flex gap-2 text-xl mr-5">
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#ededed"}}></i></p>
+                                    </div>
+                                </div>
+                                <p className='text-xl mt-4'>Agriculture and farming are essential industries that involve the cultivation of crops, raising of livestock, and production a of food and other agricultural products Agriculture farming are essential industries involve cultivation</p>
+                                <div className="flex gap-4 mt-3">
+                                    <div className="">
+                                        <img src={re1} alt="" className='rounded-xl' />
+                                    </div>
+                                    <div className="">
+                                        <h1 className='text-2xl text-greenn'>Haney Cooper</h1>
+                                        <p className='text-lg text-zinc-500'>Ceo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div className="bg-zinc-100" style={{borderRadius:"14px" ,padding:"35px"}}>
+                                <div className="flex justify-between ">
+                                    <img src={quote} alt="" />
+                                    <div className="flex gap-2 text-xl mr-5">
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#ededed"}}></i></p>
+                                    </div>
+                                </div>
+                                <p className='text-xl mt-4'>Agriculture and farming are essential industries that involve the cultivation of crops, raising of livestock, and production a of food and other agricultural products Agriculture farming are essential industries involve cultivation</p>
+                                <div className="flex gap-4 mt-3">
+                                    <div className="">
+                                        <img src={re1} alt="" className='rounded-xl' />
+                                    </div>
+                                    <div className="">
+                                        <h1 className='text-2xl text-greenn'>Haney Cooper</h1>
+                                        <p className='text-lg text-zinc-500'>Ceo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div className="bg-zinc-100" style={{borderRadius:"14px" ,padding:"35px"}}>
+                                <div className="flex justify-between ">
+                                    <img src={quote} alt="" />
+                                    <div className="flex gap-2 text-xl mr-5">
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#FFD43B"}}></i></p>
+                                        <p><i class="fa-solid fa-star" style={{color: "#ededed"}}></i></p>
+                                    </div>
+                                </div>
+                                <p className='text-xl mt-4'>Agriculture and farming are essential industries that involve the cultivation of crops, raising of livestock, and production a of food and other agricultural products Agriculture farming are essential industries involve cultivation</p>
+                                <div className="flex gap-4 mt-3">
+                                    <div className="">
+                                        <img src={re1} alt="" className='rounded-xl' />
+                                    </div>
+                                    <div className="">
+                                        <h1 className='text-2xl text-greenn'>Haney Cooper</h1>
+                                        <p className='text-lg text-zinc-500'>Ceo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SplideSlide>
+                </Splide>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Seed
