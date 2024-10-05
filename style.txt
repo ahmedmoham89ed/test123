@@ -1,0 +1,81 @@
+import React from 'react'
+import serv from ../assests/galleryv2-1.jpg
+import serv2 from ../assests/galleryv2-2.jpg
+import serv3 from ../assests/galleryv2-3.jpg
+import fear from ../assests/feature-thumb2.png
+import { Link } from 'react-router-dom'
+const Bringing = () => {
+  return (
+    <div>
+      <div className=container>
+        <div className=row>
+            <div className=text-center pt-20 pb-16 flex flex-col gap-3>
+                <p style={{fontFamily:'Mali, cursive',}} className='text-grelight text-2xl font-normal uppercase'>OUR GALLARY</p>
+                <h1 style={{fontFamily:'Noto Serif, serif'}} className='px-80 text-greenn font-medium text-5xl leading-tight '>Bringing nature's bounty to your plate</h1>
+            </div>
+        </div>
+        <div className=row mb-12>
+            <div className=col-lg-4>
+                <div className=match matches >
+                    <div className=ins>
+                       <img src={serv} alt= className='server' />
+                    </div>
+                    <div className=instant flex flex-col gap-4 bg-green-400 pt-4  >
+                        <p className='text-3xl font-semibold text-greenn pb-3 'style={{fontFamily:'Noto Serif, serif'}}>Farming for a Better<br/> Tomorrow</p>
+                        <p className='text-zinc-500 text-lg font-light '>Green Thumb Farm Services</p>
+                    </div>
+                </div>
+            </div>
+            <div className=col-lg-4>
+                <div className=match matches >
+                    <div className=ins>
+                       <img src={serv2} alt= className='server' />
+                    </div>
+                    <div className=instant instant2 flex flex-col gap-4 bg-green-400 pt-4  >
+                        <p className='text-3xl font-semibold text-greenn pb-3 'style={{fontFamily:'Noto Serif, serif'}}>Farming for a Better<br/> Tomorrow</p>
+                        <p className='text-zinc-500 text-lg font-light '>Green Thumb Farm Services</p>
+                    </div>
+                </div>
+            </div>
+            <div className=col-lg-4>
+                <div className=match matches >
+                    <div className=ins>
+                       <img src={serv3} alt= className='server' />
+                    </div>
+                    <div className=instant flex flex-col gap-4 bg-green-400 pt-4  >
+                        <p className='text-3xl font-semibold text-greenn pb-3'style={{fontFamily:'Noto Serif, serif'}}>Farming for a Better<br/> Tomorrow</p>
+                        <p className='text-zinc-500 text-lg font-light '>Green Thumb Farm Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div className=next>
+        <div className=container>
+            <div className=row>
+                <div className=col-lg-6>
+                    <div className=flex flex-col gap-4>
+                        <p style={{fontFamily:'Mali, cursive',}} className='text-2xl font-normal text-grelight'>OUR FEATURES</p>
+                        <h1 style={{fontFamily:'Noto Serif, serif'}} className='text-5xl font-medium text-white leading-tight'>Growing strong,farm feeding futures</h1>
+                        <p className='text-lg text-white'>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis site</p>
+                        <p className='text-xl text-white font-light'><i class=fa-solid fa-check text-grelight pr-2></i>Grow with Agriculture</p>
+                        <p className='text-xl text-white font-light'><i class=fa-solid fa-check text-grelight pr-2></i>Farming for a Better Future</p>
+                        <p className='text-xl text-white font-light'><i class=fa-solid fa-check text-grelight pr-2></i>From Farm to Table, Agriculture Matters</p>
+                        <Link to=/About className='list flex items-center gap-2 mt-4 text-xl text-white font-light  ' >Read More<i class=fa-solid fa-arrow-right text-sm ></i></Link>
+                    </div>
+                </div>
+                <div className=col-lg-6>
+                    <div className=mt-16>
+                        <img src={fear} alt= />
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Bringing
+
+
