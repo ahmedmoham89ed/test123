@@ -1,0 +1,22 @@
+import React from 'react'
+import blog from "../assests/tt-slice.png"
+
+const GalleryContent = () => {
+  return (
+    <div className='about'>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-6 mt-52">
+                <h1 className='text-white text-8xl mb-4'style={{fontFamily:'"Noto Serif", serif'}}>Gallery</h1>
+                <p className='flex items-center gap-3 text-xl text-white'><a href="/">Home</a><i class="fa-solid fa-chevron-right fa-xs"></i><a href="/Gallery">Gallery</a></p>
+            </div>
+            <div className="col-lg-6 mt-40 flex justify-end">
+                <img src={blog} alt="" />
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default GalleryContent

@@ -1,0 +1,56 @@
+import React from 'react'
+import about from "../assests/aboutv3.png"
+import { Link } from 'react-router-dom'
+const Farming = () => {
+  return (
+    <div className='pcm'>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-6">
+                <div className="pcm1">
+                    <div className="pcm4">
+                        <p><i class="fa-solid fa-play text-grelight"></i></p>
+                    </div>
+                   <div className="">
+                     <img src={about} alt="" />
+                   </div>
+                   <div className="pcm2 flex gap-3 items-center">
+                      <div className="">
+                          <p className='bg-grelight rounded-full'style={{width:"60px",height:"60px",textAlign:"center",paddingTop:"10px"}}><i class="fa-solid fa-earth-europe text-4xl text-white"></i></p>
+                      </div>
+                      <div className="">
+                         <p className='text-2xl font-normal text-greenn' style={{fontFamily:'"Noto Serif", serif'}}>Agriculture Activity</p>
+                         <p className='text-md text-zinc-600 font-light pt-2 '>Loream is ispam</p>
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <div className="col-lg-6">
+                <div className="flex flex-col gap-4 mt-12">
+                    <p style={{fontFamily:'"Mali", cursive',}} className='text-2xl text-grelight uppercase font-normal'>Why Choose us</p>
+                    <h1 style={{fontFamily:'"Noto Serif", serif'}} className='text-5xl text-greenn font-medium mb-3'>Farming with passion the feeding with purpose</h1>
+                    <p className='text-zinc-500 text-lg'>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dict facisem. Imperdiet massa turpis sit Lorem ipsum dolor sit amet consectetur. Amet the lectus mi ultricies dictum facilisis sem. Imperdiet</p>
+                    <div className="flex flex-col gap-3">
+                        <p className='text-2xl text-medium text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>FarmSmart Innovations</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar w-75 bg-grelight"></div>
+                        </div>
+                     </div>
+                     <div className="flex flex-col gap-3">
+                           <p className='text-2xl text-medium text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>CropCare Solutions</p>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-grelight" style={{width:"50%"}}></div>
+                            </div>
+                     </div>
+                     <div className="text-white">
+                          <Link to="/About" className='flex items-center gap-3 font-light  text-xl bg-grelight w-52 pl-12 py-3 text-center rounded-3xl duration-500 hover:bg-yel hover:text-grelight'>Read More<i class="fa-solid fa-arrow-right-long fa-xs"></i></Link>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Farming

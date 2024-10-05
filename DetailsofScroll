@@ -1,0 +1,80 @@
+import React from 'react'
+import serv from "../assests/service-single2.jpg"
+import detal from "../assests/details-desert.svg"
+import deta2 from "../assests/details-flower.svg"
+import deta3 from "../assests/service-details-big.jpg"
+import deta4 from "../assests/service-single1.jpg"
+const DetailsofScroll = () => {
+ 
+  return (
+    <div className='printing  mt-28 '>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-4">
+            <div className="border-1 border-zinc-200 rounded-xl mb-5" style={{backgroundColor:"rgba(42, 185, 57, 0.05)",width:"413px",height:"411px",}}>
+              <ul className='flex justify-center flex-col gap-8 text-xl text-greenn font-semibold px-5 py-5'>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>CropSense Agriculture<i class="fa-regular fa-bookmark"></i></li>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>Farm Thumb Services<i class="fa-solid fa-bookmark"></i></li>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>Nature's Landscaping<i class="fa-regular fa-bookmark"></i></li>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>Fresh Start Farm<i class="fa-solid fa-bookmark"></i></li>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>Evergreen Lawn Care<i class="fa-regular fa-bookmark"></i></li>
+                <li className='flex items-center justify-between hover:text-grelight hover:translate-x-1 duration-500 cursor-pointer'>Cultivate Success<i class="fa-solid fa-bookmark"></i></li>
+              </ul>
+            </div>
+            </div>
+            <div className="col-lg-8">
+                <div className="">
+                    <img src={serv} alt="" className='rounded-xl border-1 border-zinc-300' />
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-lg-4">
+                <div className="simply flex flex-col gap-3 px-5 pt-5  items-center justify-start ">
+                     <p className='text-4xl text-white '>GET TOUCH</p>
+                     <p className='text-xl text-white'>For fast service</p>
+                     <p className='bg-grelight w-24 mb-3 h-24 rounded-full flex items-center justify-center  hover:scale-20'><i class="fa-solid fa-phone text-4xl text-white"></i></p>
+                     <h1 className='text-3xl text-white'>(+888) 123 456 765</h1>
+                </div>
+            </div>
+            <div className="col-lg-8">
+                <div className="ml-3 mt-4">
+                    <h1 className='text-4xl text-greenn pb-4'>Cultivate Success with Agriculture</h1>
+                    <div className="flex flex-col gap-2 text-md text-zinc-500 ">
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum</p>
+                    </div>
+                    <div className="mt-5 mb-5 flex items-center justify-between">
+                        <div className="flex items-start justify-between" style={{width:"300px",height:"132px",backgroundColor:"#eff3ed",borderRadius:"15px"}}>
+                            <div className="">
+                                <p className='flex justify-center items-center text-4xl text-greenn pt-3 pl-8 '>Prepare<br/> the soil</p>
+                            </div>
+                            <div className='flex justify-center items-center'  style={{backgroundColor:"#fdd61f",width:"80px",height:"80px",WebkitBorderTopRightRadius:"15px",borderBottomRightRadius:"40px",borderTopLeftRadius:"40px"}}>
+                                <img src={detal} alt="" />
+                            </div>
+                        </div>
+                        <div className="flex items-start justify-between mr-24" style={{width:"300px",height:"132px",backgroundColor:"#eff3ed",borderRadius:"15px"}}>
+                            <div className="">
+                                <p className='flex justify-center items-center text-4xl text-greenn pt-3 pl-8 '>Prepare<br/> the soil</p>
+                            </div>
+                            <div className='flex justify-center items-center'  style={{backgroundColor:"#fdd61f",width:"80px",height:"80px",WebkitBorderTopRightRadius:"15px",borderBottomRightRadius:"40px",borderTopLeftRadius:"40px"}}>
+                                <img src={deta2} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <h1 className='text-4xl text-greenn pb-4'>Explore the beauty of nature</h1>
+                    <p className='text-zinc-500 mb-5'>It is a long esta asblished fact that a reader will be distr acted byoi the read able content of a page when lookiing for okngjo at its layout The point of using Lorem Ipsum is that it has a more orless norimal dist ribution of letters opposed to using It is a long estab lished fact that a readey</p>
+                    <div className="flex gap-3 mb-40">
+                        <img src={deta3} alt="" className='rounded-xl' />
+                        <img src={deta4} alt="" className='rounded-xl'/>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default DetailsofScroll

@@ -1,0 +1,66 @@
+import React from 'react'
+import natr from "../assests/pricing-animal.png"
+const Harvesting = () => {
+  return (
+    <div className='loyster'>
+      <div className="container">
+        <div className="row">
+            <div className="col-lg-9">
+                <div className="finey ml-80">
+                    <p className='text-2xl text-grelight pb-3'style={{fontFamily:'"Mali", cursive',}}>OUR PRICING</p>
+                    <h1 className='text-5xl text-greenn leading-tight' style={{fontFamily:'"Noto Serif", serif'}}>Harvesting dreams, one<br/> crop at a time</h1>
+                </div>
+            </div>
+            <div className="col-lg-3">
+                <div className="loyer ml-10">
+                     <img src={natr} alt="" />
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-lg-4">
+                <div className="lifest">
+                   <p className='text-2xl text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Consult</p>
+                   <p className='pb-3'><span className='text-5xl text-greenn font-bold pr-2'style={{fontFamily:'"Noto Serif", serif'}}>$9</span><span className='text-xl text-zinc-500 font-light'>/month</span></p>
+                   <div className="flex flex-col gap-3">
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Mistakes To Avoid</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Your Startup</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-xmark text-grelight text-xl"></i>Knew About Fonts</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-xmark text-grelight text-xl"></i>Winning Metric for Your Startup</p>
+                   </div>
+                   <p className='lostter'><a href="/">Get Now</a></p>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="lifest">
+                   <p className='text-2xl text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Perfect</p>
+                   <p className='pb-3'><span className='text-5xl text-greenn font-bold pr-2'style={{fontFamily:'"Noto Serif", serif'}}>$29</span><span className='text-xl text-zinc-500 font-light'>/month</span></p>
+                   <div className="flex flex-col gap-3">
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Mistakes To Avoid</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Your Startup</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Knew About Fonts</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Winning Metric for Your Startup</p>
+                   </div>
+                   <p className='lostter lostr'><a href="/">Get Now</a></p>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="lifest">
+                   <p className='text-2xl text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Easy</p>
+                   <p className='pb-3'><span className='text-5xl text-greenn font-bold pr-2'style={{fontFamily:'"Noto Serif", serif'}}>$19</span><span className='text-xl text-zinc-500 font-light'>/month</span></p>
+                   <div className="flex flex-col gap-3">
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Mistakes To Avoid</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Your Startup</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Knew About Fonts</p>
+                        <p className='flex gap-3 items-center text-zinc-600 text-xl font-normal'><i class="fa-solid fa-circle-check text-grelight text-xl"></i>Winning Metric for Your Startup</p>
+                   </div>
+                   <p className='lostter'><a href="/">Get Now</a></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Harvesting

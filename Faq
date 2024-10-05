@@ -1,0 +1,27 @@
+import React from 'react'
+import talk from "../assests/talking-contact.png"
+const Faq = () => {
+  return (
+    <div className='linee'>
+       <div className="container">
+          <div className="row">
+             <div className="col-lg-6">
+                 <div className="flex flex-col gap-4">
+                    <p className='text-grelight text-3xl ' style={{fontFamily:'"Mali", cursive',}}>FAQ</p>
+                    <h1 className='text-6xl text-greenn leading-tight pb-2' style={{fontFamily:'"Noto Serif", serif'}}>How often should I water my Farming?</h1>
+                    <p className='text-zinc-600 text-lg pb-4'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                    <p className='flex gap-3 items-center 'style={{position:"relative",cursor:"pointer"}}><i style={{position:"absolute",left:"-30px"}} class="fa-solid fa-play text-2xl pl-2 cursor-pointer text-white bg-grelight w-16 h-16 text-center pt-3  rounded-full"></i><span className='text-greenn text-2xl bg-white w-52 h-20 rounded-3xl text-center' style={{fontFamily:'"Mali", cursive',paddingTop:"22px",paddingLeft:"18px",cursor:"pointer"}}>Watch Video</span></p>
+                 </div>
+             </div>
+             <div className="col-lg-6">
+                <div className="">
+                   <img src={talk} alt="" className='talk' />  
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+  )
+}
+
+export default Faq

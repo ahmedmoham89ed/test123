@@ -1,0 +1,67 @@
+import React from 'react'
+import count from "../assests/count1.svg"
+import count1 from "../assests/wheat-sesh.svg"
+import count2 from "../assests/smart-flower.svg"
+const Dreams = () => {
+  return (
+    <div className='esst'>
+      <div className="container">
+        <div className="row">
+            <div className="text-center mt-5 mb-5">
+                <p className='text-xl text-grelight' style={{fontFamily:'"Mali", cursive',}}>Our Latest Service</p>
+                <h1 className='text-5xl text-greenn w-[50%] m-auto mt-2 leading-tight'>Harvesting dreams one crop at a time</h1>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-lg-4">
+                <div className="essiential">
+                    <div className="">
+                      <img src={count} alt="" className='w-28 pr-4 mr-5 ' />
+                    </div>  
+                    <div className="lon flex flex-col gap-4 pl-4" style={{borderLeft:"1px solid #e0e0e0"}}>
+                        <h1 className='lon1 text-3xl text-greenn duration-300'>Green Grow</h1>
+                        <p className='text-lg text-zinc-500'>Agriculture and farming are essential industries</p>
+                        <div className="flex gap-3 items-center">
+                            <p className='lon2 text-lg duration-300'>Read More</p>
+                            <p><i class="fa-solid fa-arrow-right-long fa-lg text-grelight"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="essiential">
+                    <div className="">
+                      <img src={count1} alt="" className='w-28 pr-4 mr-5 ' />
+                    </div>  
+                    <div className="lon flex flex-col gap-4 pl-4" style={{borderLeft:"1px solid #e0e0e0"}}>
+                        <h1 className='lon1 text-3xl text-greenn duration-300'>Agri Consulting</h1>
+                        <p className='text-lg text-zinc-500'>Agriculture and farming are essential industries</p>
+                        <div className="flex gap-3 items-center">
+                            <p className='lon2 text-lg duration-300'>Read More</p>
+                            <p><i class="fa-solid fa-arrow-right-long fa-lg text-grelight"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="essiential">
+                    <div className="">
+                      <img src={count2} alt="" className='w-28 pr-4 mr-5 ' />
+                    </div>  
+                    <div className="lon flex flex-col gap-4 pl-4" style={{borderLeft:"1px solid #e0e0e0"}}>
+                        <h1 className='lon1 text-3xl text-greenn duration-300'>Farm Smart</h1>
+                        <p className='text-lg text-zinc-500'>Agriculture and farming are essential industries</p>
+                        <div className="flex gap-3 items-center">
+                            <p className='lon2 text-lg duration-300'>Read More</p>
+                            <p><i class="fa-solid fa-arrow-right-long fa-lg text-grelight"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Dreams

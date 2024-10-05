@@ -1,0 +1,95 @@
+import React from 'react'
+import gallery from "../assests/gallery-details-thumb1.jpg"
+import gallery2 from "../assests/gallery-details-thumb12.jpg"
+const Client = () => {
+  return (
+    <div className='author'>
+       <div className="container">
+         <div className="row">
+            <div className="col-lg-4">
+                <div className="date">
+                   <h1 className='text-4xl font-semibold pb-2 text-greenn'>Our Farming</h1>
+                   <p className='text-zinc-500 py-2'>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sa Imperdiet massa turpis sit Lorem ipsum dolor sit amet a consectetur. Amet lectus</p>
+                   <div className="flex gap-2 items-center justify-start pl-10 mt-4 w-80 h-12 bg-white rounded-full">
+                      <p className='flex items-center gap-5 text-xl text-greenn'>Client <span>:</span></p>
+                      <p className='text-md text-zinc-500'>Organic Farming</p>
+                   </div>
+                   <div className="flex gap-2 items-center justify-start pl-10 mt-3 w-80 h-12 bg-white rounded-full">
+                      <p className='flex items-center gap-5 text-xl text-greenn'>Author <span>:</span></p>
+                      <p className='text-md text-zinc-500'>Nafiz Bhuiyan</p>
+                   </div>
+                   <div className="flex gap-2 items-center justify-start pl-10 mt-3 w-80 h-12 bg-white rounded-full">
+                      <p className='flex items-center gap-5 text-xl text-greenn'>Date <span>:</span></p>
+                      <p className='text-md text-zinc-500'>15/5/2001</p>
+                   </div>
+                   <div className="flex gap-2 items-center justify-start pl-10 mt-3 w-80 h-12 bg-white rounded-full">
+                      <p className='flex items-center gap-5 text-xl text-greenn'>Catagory <span>:</span></p>
+                      <p className='text-md text-zinc-500'>Agriculture</p>
+                   </div>
+                   <div className="flex gap-2 items-center justify-start pl-10 mt-3 w-80 h-12 bg-white rounded-full">
+                      <p className='flex items-center gap-5 text-xl text-greenn'>Price ap. <span>:</span></p>
+                      <p className='text-md text-zinc-500'>122$</p>
+                   </div>
+                   <div className="flex gap-3 items-center mt-9 cursor-pointer">
+                        <p className='border-1 border-zinc-300 w-9 h-9 flex items-center justify-center hover:bg-[#fdd61f] hover:border-[#fdd61f] duration-300 hover:text-white rounded-sm '><i class="fa-brands fa-facebook-f"></i></p>
+                        <p className='border-1 border-zinc-300 w-9 h-9 flex items-center justify-center hover:bg-[#fdd61f] hover:border-[#fdd61f] duration-300 hover:text-white rounded-sm '><i class="fa-brands fa-x-twitter"></i></p>
+                        <p className='border-1 border-zinc-300 w-9 h-9 flex items-center justify-center hover:bg-[#fdd61f] hover:border-[#fdd61f] duration-300 hover:text-white rounded-sm '><i class="fa-brands fa-linkedin-in"></i></p>
+                        <p className='border-1 border-zinc-300 w-9 h-9 flex items-center justify-center hover:bg-[#fdd61f] hover:border-[#fdd61f] duration-300 hover:text-white rounded-sm '><i class="fa-brands fa-pinterest-p"></i></p>
+                   </div>
+                </div>
+            </div>
+            <div className="col-lg-8">
+                <div className="facilisis">
+                    <img src={gallery} alt="" className='dictum ' />
+                    <div className="consectetur">
+                        <h1 className='text-4xl text-greenn font-semibold'>Cultivate Success with Agriculture</h1>
+                        <p className='text-zinc-500 pt-2'>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. a Imperdiet massa turpis sit Lorem ipsum dolor sit amet consectetur. Amet lectus mi the ultricies dictum facilisis sem. Imperdiet best destination in the world</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-lg-12">
+                <div className="">
+                    <img src={gallery2} alt="" className='rounded-3xl'style={{marginBottom:"50px"}} />
+                </div>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-lg-12">
+                <div className="">
+                    <div className="mb-8">
+                        <h1 className='text-4xl text-greenn pb-4'>Reach New Heights with Digital Marketing</h1>
+                        <p className='text-lg text-zinc-500'>Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any websitet in on visitors.Web designing in a powerful way of just not an only profession Web designing in a powerful way of just not an Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any websitet in on visitors.Web designing in a powerful way of just not an only profession Web designing in a powerful way of just not an only</p>
+                    </div>
+                    <div className="">
+                        <h1 className='text-4xl text-greenn pb-4'>Planting the Seeds of Innovation</h1>
+                        <p className='text-lg text-zinc-500'>Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any websitet in on visitors.Web designing in a powerful way of just not an only profession Web designing in a powerful way of just not an only</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-lg-5">
+                <div className="success">
+                    <p><i class="fa-solid fa-angles-right"></i>Cultivate Success with Agriculture</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Harvest the Power of Agriculture</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Sow the Seeds of Prosperity</p>
+                    <p><i class="fa-solid fa-angles-right"></i>From Farm to Table, Agriculture</p>
+                </div>
+            </div>
+            <div className="col-lg-5">
+                <div className="success potential">
+                    <p><i class="fa-solid fa-angles-right"></i>Discover the Potential of Agriculture</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Nourish Your Life with Agriculture</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Petal Pathways Landscaping</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Secret Farming Retreat</p>
+                </div>
+            </div>
+         </div>
+       </div>
+    </div>
+  )
+}
+
+export default Client
