@@ -1,0 +1,93 @@
+import React from 'react'
+import serv from "../assests/srp1.jpg"
+import serv2 from "../assests/srp2.jpg"
+import serv3 from "../assests/srp3.jpg"
+import serv4 from "../assests/srp4.jpg"
+import serv5 from "../assests/srp5.jpg"
+import serv6 from "../assests/srp6.jpg"
+import water from "../assests/sr1.svg"
+import flower from "../assests/sr2.svg"
+import map from "../assests/sr3.svg"
+import sr4 from "../assests/sr4.svg"
+import sr5 from "../assests/sr5.svg"
+import sr6 from "../assests/sr6.svg"
+const ServicesNourishing = () => {
+  return (
+    <div>
+    <div className="container">
+      <div className="row  mt-28">
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Green Grow<br/> Solutions</p>
+                      <img src={water} alt="" />
+                  </div>
+              </div>
+          </div>
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv2} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Harvest Tech to<br/>Farm Service</p>
+                      <img src={flower} alt="" />
+                  </div>
+              </div>
+          </div>
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv3} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>AgriPro is the<br/>Consulting</p>
+                      <img src={map} alt="" />
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div className="row mb-80">
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv4} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>HarvestTech the<br/> best farm</p>
+                      <img src={sr4} alt="" />
+                  </div>
+              </div>
+          </div>
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv5} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>AgriTech to the a<br/> Innovations</p>
+                      <img src={sr5} alt="" />
+                  </div>
+              </div>
+          </div>
+          <div className="col-lg-4">
+              <div className="match" style={{width:"411px",height:"440px",marginBottom:"40px",borderRadius:"10px",overflow:"hidden"}}>
+                  <div className="ins">
+                     <img src={serv6} alt="" className='serv' />
+                  </div>
+                  <div className="flex items-start justify-around bg-green-400 pt-4 " style={{height:"127.5px",backgroundColor:"#f4fbf5",borderBottomRightRadius:"10px",borderBottomLeftRadius:"10px" ,overflow:"hidden"}}>
+                      <p className='text-3xl font-semibold text-greenn 'style={{fontFamily:'"Noto Serif", serif'}}>Crop Agriculture<br/>Solutions</p>
+                      <img src={sr6} alt="" />
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+export default ServicesNourishing
