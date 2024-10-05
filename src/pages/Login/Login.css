@@ -1,0 +1,125 @@
+.login{
+    background-image:linear-gradient(#0000007e,#0000007e), url("../../../public/background_banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(to right, transparent,black 20%);
+    -webkit-mask-image: linear-gradient(to right, transparent,black 20%);
+}
+.login .Login-form{
+    margin: auto;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 440px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(35, 33, 33, 0.539); 
+    transform: translateY(10%);
+    position: relative;
+}
+.login .logo{
+    margin:auto;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+.login .Login-form h1{
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.login .Login-form  .inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.login .Login-form .text,
+.login .Login-form .email,
+.login .Login-form .password{
+    outline: none;
+    border: none;
+    width:350px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #333;
+    color: white; 
+    font-size: 18px;
+    text-indent: 14px;
+}
+.login .Login-form .inp button{
+    border: 0;
+    outline: 0;
+    background-color: #e50914;
+    width: 350px;
+    height: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.login .Login-form .form-help{
+    margin-top: 7px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fffdfd;
+    cursor: pointer;
+    
+}
+.login .Login-form .form-help .remember{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.login .Login-form .form-help .remember input{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.login .Login-form .form-help .remember label{
+    cursor: pointer;
+}
+.login .form-switch{
+    color: #737373;
+    text-align: left;
+    padding-left: 53px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 8.5%;
+}
+.login .form-switch span{
+    margin-left: 6px ;
+    color: #fffdfd;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loading-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-spinner img{
+    width: 80px;
+}
+@media (max-width:500px) {
+    .login{
+        padding: 15px 5%;
+    }
+    .Login-form{
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
